@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\documents\\GitHub\\qwerty-menu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|e:\\documents\\github\\qwerty-menu\\mods\\kickall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|solutionrelative:mods\\kickall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|e:\\documents\\github\\qwerty-menu\\qwerty menu.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|solutionrelative:qwerty menu.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "kickall.cs",
+              "DocumentMoniker": "E:\\documents\\GitHub\\qwerty-menu\\Mods\\kickall.cs",
+              "RelativeDocumentMoniker": "Mods\\kickall.cs",
+              "ToolTip": "E:\\documents\\GitHub\\qwerty-menu\\Mods\\kickall.cs",
+              "RelativeToolTip": "Mods\\kickall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACnAgAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T22:43:04.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "qwerty menu",
+              "DocumentMoniker": "E:\\documents\\GitHub\\qwerty-menu\\qwerty menu.csproj",
+              "RelativeDocumentMoniker": "qwerty menu.csproj",
+              "ToolTip": "E:\\documents\\GitHub\\qwerty-menu\\qwerty menu.csproj",
+              "RelativeToolTip": "qwerty menu.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-14T22:25:32.866Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

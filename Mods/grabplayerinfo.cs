@@ -1,5 +1,5 @@
 ﻿using Photon.Pun;
-using StupidTemplate.Classes;
+using qwerty_menu.Classes;
 using System.Diagnostics;
 using System.IO;
 using System.Reflection;

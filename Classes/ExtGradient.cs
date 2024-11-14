@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace StupidTemplate.Classes
+namespace qwerty_menu.Classes
 {
     public class ExtGradient
     {

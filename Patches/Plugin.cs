@@ -1,10 +1,10 @@
 ﻿using BepInEx;
 using System.ComponentModel;
 
-namespace StupidTemplate.Patches
+namespace qwerty_menu.Patches
 {
-    [Description(StupidTemplate.PluginInfo.Description)]
-    [BepInPlugin(StupidTemplate.PluginInfo.GUID, StupidTemplate.PluginInfo.Name, StupidTemplate.PluginInfo.Version)]
+    [Description(qwerty_menu.PluginInfo.Description)]
+    [BepInPlugin(qwerty_menu.PluginInfo.GUID, qwerty_menu.PluginInfo.Name, qwerty_menu.PluginInfo.Version)]
     public class HarmonyPatches : BaseUnityPlugin
     {
         private void OnEnable()

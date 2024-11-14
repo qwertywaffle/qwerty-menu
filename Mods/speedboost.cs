@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace flower_mods.Mods
+namespace qwerty_menu.Mods
 {
     internal class Speedboost
     {

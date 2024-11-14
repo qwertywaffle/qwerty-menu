@@ -1,8 +1,8 @@
-﻿using StupidTemplate.Classes;
+﻿using qwerty_menu.Classes;
 using UnityEngine;
-using static StupidTemplate.Menu.Main;
+using static qwerty_menu.Menu.Main;
 
-namespace StupidTemplate
+namespace qwerty_menu
 {
     internal class Settings
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StupidTemplate.Classes
+namespace qwerty_menu.Classes
 {
     public class ButtonInfo
     {

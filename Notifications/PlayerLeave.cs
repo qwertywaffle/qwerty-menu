@@ -1,12 +1,12 @@
 ﻿using HarmonyLib;
-using StupidTemplate.Notifications;
+using qwerty_menu.Notifications;
 using Photon.Pun;
 using Photon.Realtime;
 using System.IO;
 using UnityEngine;
-using static StupidTemplate.Menu.Main;
+using static qwerty_menu.Menu.Main;
 
-namespace StupidTemplate.Patches
+namespace qwerty_menu.Patches
 {
     [HarmonyPatch(typeof(MonoBehaviourPunCallbacks), "OnPlayerLeftRoom")]
     internal class LeavePatch : MonoBehaviour

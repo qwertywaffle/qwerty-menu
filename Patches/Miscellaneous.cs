@@ -3,7 +3,7 @@ using Photon.Pun;
 using System;
 using UnityEngine;
 
-namespace StupidTemplate.Patches
+namespace qwerty_menu.Patches
 {
     [HarmonyPatch(typeof(GorillaNot), "SendReport")]
     internal class AntiCheat : MonoBehaviour

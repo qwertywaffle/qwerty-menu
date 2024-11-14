@@ -1,9 +1,9 @@
 using Photon.Pun;
 using UnityEngine;
-using static StupidTemplate.Menu.Main;
-using static StupidTemplate.Settings;
+using static qwerty_menu.Menu.Main;
+using static qwerty_menu.Settings;
 
-namespace StupidTemplate.Classes
+namespace qwerty_menu.Classes
 {
 	internal class Button : MonoBehaviour
 	{

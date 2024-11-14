@@ -2,7 +2,7 @@
 using HarmonyLib;
 using UnityEngine;
 
-namespace StupidTemplate.Patches
+namespace qwerty_menu.Patches
 {
     [HarmonyPatch(typeof(GameObject))]
     [HarmonyPatch("CreatePrimitive", 0)]

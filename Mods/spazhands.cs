@@ -1,4 +1,4 @@
-﻿using StupidTemplate.Menu;
+﻿using qwerty_menu.Menu;
 using System;
 using System.Collections.Generic;
 using System.Text;

@@ -1,7 +1,6 @@
-﻿using StupidTemplate.Classes;
-using StupidTemplate.Mods;
-using flower_mods.Mods;
-using static StupidTemplate.Settings;
+﻿using qwerty_menu.Classes;
+using qwerty_menu.Mods;
+using static qwerty_menu.Settings;
 using qwerty_menu.Mods;
 namespace qwerty_menu.Menu
 {

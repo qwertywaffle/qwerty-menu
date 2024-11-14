@@ -1,6 +1,6 @@
-﻿using static StupidTemplate.Menu.Main;
+﻿using static qwerty_menu.Menu.Main;
 
-namespace StupidTemplate.Mods
+namespace qwerty_menu.Mods
 {
     internal class Global
     {

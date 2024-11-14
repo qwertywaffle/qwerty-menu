@@ -1,7 +1,7 @@
-﻿using static StupidTemplate.Menu.Main;
-using static StupidTemplate.Settings;
+﻿using static qwerty_menu.Menu.Main;
+using static qwerty_menu.Settings;
 
-namespace StupidTemplate.Mods
+namespace qwerty_menu.Mods
 {
     internal class SettingsMods
     {

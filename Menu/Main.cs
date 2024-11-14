@@ -1,16 +1,14 @@
 ﻿using BepInEx;
 using HarmonyLib;
-using StupidTemplate.Classes;
-using StupidTemplate.Notifications;
+using qwerty_menu.Classes;
 using System;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
-using static StupidTemplate.Menu.Buttons;
-using static StupidTemplate.Settings;
+using static qwerty_menu.Settings;
 
-namespace StupidTemplate.Menu
+namespace qwerty_menu.Menu
 {
     [HarmonyPatch(typeof(GorillaLocomotion.Player))]
     [HarmonyPatch("LateUpdate", MethodType.Normal)]
@@ -65,7 +63,7 @@ namespace StupidTemplate.Menu
                 }
                 catch (Exception exc)
                 {
-                    UnityEngine.Debug.LogError(string.Format("{0} // Error initializing at {1}: {2}", PluginInfo.Name, exc.StackTrace, exc.Message));
+                    UnityEngine.Debug.LogError(string.Format("{0} // Error initializing at {1}: {2}", qwerty_menu.PluginInfo.Name, exc.StackTrace, exc.Message));
                 }
 
             // Constant
@@ -78,7 +76,7 @@ namespace StupidTemplate.Menu
                         }
 
                     // Execute Enabled mods
-                        foreach (ButtonInfo[] buttonlist in buttons)
+                        foreach (ButtonInfo[] buttonlist in qwerty_menu.Menu.Buttons.buttons)
                         {
                             foreach (ButtonInfo v in buttonlist)
                             {
@@ -92,7 +90,7 @@ namespace StupidTemplate.Menu
                                         }
                                         catch (Exception exc)
                                         {
-                                            UnityEngine.Debug.LogError(string.Format("{0} // Error with mod {1} at {2}: {3}", PluginInfo.Name, v.buttonText, exc.StackTrace, exc.Message));
+                                            UnityEngine.Debug.LogError(string.Format("{0} // Error with mod {1} at {2}: {3}", qwerty_menu.PluginInfo.Name, v.buttonText, exc.StackTrace, exc.Message));
                                         }
                                     }
                                 }
@@ -100,7 +98,7 @@ namespace StupidTemplate.Menu
                         }
                 } catch (Exception exc)
                 {
-                    UnityEngine.Debug.LogError(string.Format("{0} // Error with executing mods at {1}: {2}", PluginInfo.Name, exc.StackTrace, exc.Message));
+                    UnityEngine.Debug.LogError(string.Format("{0} // Error with executing mods at {1}: {2}", qwerty_menu.PluginInfo.Name, exc.StackTrace, exc.Message));
                 }
         }
 
@@ -146,7 +144,7 @@ namespace StupidTemplate.Menu
                     }
                 }.AddComponent<Text>();
                 text.font = currentFont;
-                text.text = PluginInfo.Name + " <color=grey>[</color><color=white>" + (pageNumber + 1).ToString() + "</color><color=grey>]</color>";
+                text.text = qwerty_menu.PluginInfo.Name + " <color=grey>[</color><color=white>" + (pageNumber + 1).ToString() + "</color><color=grey>]</color>";
                 text.fontSize = 1;
                 text.color = textColors[0];
                 text.supportRichText = true;
@@ -265,7 +263,7 @@ namespace StupidTemplate.Menu
                     component.rotation = Quaternion.Euler(new Vector3(180f, 90f, 90f));
 
                 // Mod Buttons
-                    ButtonInfo[] activeButtons = buttons[buttonsType].Skip(pageNumber * buttonsPerPage).Take(buttonsPerPage).ToArray();
+                    ButtonInfo[] activeButtons = qwerty_menu.Menu.Buttons.buttons[buttonsType].Skip(pageNumber * buttonsPerPage).Take(buttonsPerPage).ToArray();
                     for (int i = 0; i < activeButtons.Length; i++)
                     {
                         CreateButton(i * 0.1f, activeButtons[i]);
@@ -431,7 +429,7 @@ namespace StupidTemplate.Menu
 
         public static void Toggle(string buttonText)
         {
-            int lastPage = ((buttons[buttonsType].Length + buttonsPerPage - 1) / buttonsPerPage) - 1;
+            int lastPage = ((qwerty_menu.Menu.Buttons.buttons[buttonsType].Length + buttonsPerPage - 1) / buttonsPerPage) - 1;
             if (buttonText == "PreviousPage")
             {
                 pageNumber--;
@@ -458,7 +456,6 @@ namespace StupidTemplate.Menu
                             target.enabled = !target.enabled;
                             if (target.enabled)
                             {
-                                NotifiLib.SendNotification("<color=grey>[</color><color=green>ENABLE</color><color=grey>]</color> " + target.toolTip);
                                 if (target.enableMethod != null)
                                 {
                                     try { target.enableMethod.Invoke(); } catch { }
@@ -466,7 +463,6 @@ namespace StupidTemplate.Menu
                             }
                             else
                             {
-                                NotifiLib.SendNotification("<color=grey>[</color><color=red>DISABLE</color><color=grey>]</color> " + target.toolTip);
                                 if (target.disableMethod != null)
                                 {
                                     try { target.disableMethod.Invoke(); } catch { }
@@ -475,7 +471,6 @@ namespace StupidTemplate.Menu
                         }
                         else
                         {
-                            NotifiLib.SendNotification("<color=grey>[</color><color=green>ENABLE</color><color=grey>]</color> " + target.toolTip);
                             if (target.method != null)
                             {
                                 try { target.method.Invoke(); } catch { }

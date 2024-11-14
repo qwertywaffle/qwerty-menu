@@ -1,4 +1,4 @@
-﻿namespace flower_mods.Mods
+﻿namespace qwerty_menu.Mods
 {
     internal class spazhead
     {

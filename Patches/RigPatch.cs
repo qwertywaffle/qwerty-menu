@@ -1,7 +1,7 @@
 ﻿using HarmonyLib;
 using UnityEngine;
 
-namespace StupidTemplate.Patches
+namespace qwerty_menu.Patches
 {
     [HarmonyPatch(typeof(VRRig), "OnDisable")]
     internal class GhostPatch : MonoBehaviour

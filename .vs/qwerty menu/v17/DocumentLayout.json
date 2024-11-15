@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\documents\\GitHub\\qwerty-menu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|e:\\documents\\github\\qwerty-menu\\mods\\kickall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|solutionrelative:mods\\kickall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|e:\\documents\\github\\qwerty-menu\\menu\\buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|solutionrelative:menu\\buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|e:\\documents\\github\\qwerty-menu\\qwerty menu.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "kickall.cs",
-              "DocumentMoniker": "E:\\documents\\GitHub\\qwerty-menu\\Mods\\kickall.cs",
-              "RelativeDocumentMoniker": "Mods\\kickall.cs",
-              "ToolTip": "E:\\documents\\GitHub\\qwerty-menu\\Mods\\kickall.cs",
-              "RelativeToolTip": "Mods\\kickall.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACnAgAAAAAAAA==",
+              "Title": "Buttons.cs",
+              "DocumentMoniker": "E:\\documents\\GitHub\\qwerty-menu\\Menu\\Buttons.cs",
+              "RelativeDocumentMoniker": "Menu\\Buttons.cs",
+              "ToolTip": "E:\\documents\\GitHub\\qwerty-menu\\Menu\\Buttons.cs",
+              "RelativeToolTip": "Menu\\Buttons.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T22:43:04.406Z",
+              "WhenOpened": "2024-11-15T02:00:23.487Z",
               "EditorCaption": ""
             },
             {

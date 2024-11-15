@@ -1,7 +1,6 @@
 ﻿using qwerty_menu.Classes;
 using qwerty_menu.Mods;
 using static qwerty_menu.Settings;
-using qwerty_menu.Mods;
 namespace qwerty_menu.Menu
 {
     internal class Buttons
@@ -20,7 +19,7 @@ namespace qwerty_menu.Menu
                 new ButtonInfo { buttonText = "spaz hands", method =() => spazhands.SpazHands(), disableMethod =() => spazhandsoff.SpazHandsOff(), toolTip = "makes your hands go awerfhousdiuhyfrsagsl", isTogglable = true},
                 new ButtonInfo { buttonText = "long arms", enableMethod =() => longarms.Longarms(),   disableMethod =() => longarmsoff.Longarmsoff(), toolTip = "gives you long arms", isTogglable = true},
                 new ButtonInfo { buttonText = "kick all (D!)", method =() => kickall.KickAll(), toolTip = "kicks everyone", isTogglable = true},
-                new ButtonInfo { buttonText = "lag all (D!)", method =() => kickall.KickAll(), toolTip = "lags everyone", isTogglable = true},
+                new ButtonInfo { buttonText = "lag all (D!)", method =() => crashall.CrashAll(), toolTip = "lags everyone", isTogglable = true},
                 new ButtonInfo { buttonText = "wasd fly", method =() => wasdfly.WASDFly(), toolTip = "fly with your keyboard", isTogglable = true},
                 new ButtonInfo { buttonText = "grab player info", method =() => grabplayerinfo.GrabPlayerInfo(), toolTip = "grabs player info", isTogglable = true},
                 new ButtonInfo { buttonText = "test", toolTip = "test" },

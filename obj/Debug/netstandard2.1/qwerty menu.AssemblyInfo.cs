@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("qwerty menu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17ff727d434a20887b6b4de68eb845583e980b2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86eeda67a77e2450eb1a033f97547a9150185f26")]
 [assembly: System.Reflection.AssemblyProductAttribute("qwerty menu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("qwerty menu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

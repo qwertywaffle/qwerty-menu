@@ -20,8 +20,8 @@ namespace qwerty_menu.Menu
                 new ButtonInfo { buttonText = "long arms", enableMethod =() => longarms.Longarms(),   disableMethod =() => longarmsoff.Longarmsoff(), toolTip = "gives you long arms", isTogglable = true},
                 new ButtonInfo { buttonText = "kick all (D!)", method =() => kickall.KickAll(), toolTip = "kicks everyone", isTogglable = true},
                 new ButtonInfo { buttonText = "lag all (D!)", method =() => crashall.CrashAll(), toolTip = "lags everyone", isTogglable = true},
+                new ButtonInfo { buttonText = "freeze all (M) (D?)", method =() => freezeall.FreezeAll(), toolTip = "freezes everyone", isTogglable = true},
                 new ButtonInfo { buttonText = "wasd fly", method =() => wasdfly.WASDFly(), toolTip = "fly with your keyboard", isTogglable = true},
-                new ButtonInfo { buttonText = "grab player info", method =() => grabplayerinfo.GrabPlayerInfo(), toolTip = "grabs player info", isTogglable = true},
                 new ButtonInfo { buttonText = "test", toolTip = "test" },
             },
             new ButtonInfo[] { // Settings

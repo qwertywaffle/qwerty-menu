@@ -1,7 +1,5 @@
 E:\documents\GitHub\qwerty-menu\obj\Debug\netstandard2.1\qwerty menu.csproj.AssemblyReference.cache
 E:\documents\GitHub\qwerty-menu\obj\Debug\netstandard2.1\qwerty menu.GeneratedMSBuildEditorConfig.editorconfig
-E:\documents\GitHub\qwerty-menu\obj\Debug\netstandard2.1\qwerty menu.AssemblyInfoInputs.cache
-E:\documents\GitHub\qwerty-menu\obj\Debug\netstandard2.1\qwerty menu.AssemblyInfo.cs
 E:\documents\GitHub\qwerty-menu\obj\Debug\netstandard2.1\qwerty menu.csproj.CoreCompileInputs.cache
 E:\documents\GitHub\qwerty-menu\obj\Debug\netstandard2.1\qwerty menu.sourcelink.json
 E:\documents\GitHub\qwerty-menu\bin\Debug\netstandard2.1\qwerty menu.deps.json

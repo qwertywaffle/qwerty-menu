@@ -7,8 +7,28 @@
       "RelativeMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|solutionrelative:menu\\buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|e:\\documents\\github\\qwerty-menu\\mods\\grabplayerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|solutionrelative:mods\\grabplayerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|e:\\documents\\github\\qwerty-menu\\mods\\slowall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|solutionrelative:mods\\slowall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|e:\\documents\\github\\qwerty-menu\\plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|solutionrelative:plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|e:\\documents\\github\\qwerty-menu\\qwerty menu.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|solutionrelative:qwerty menu.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|e:\\documents\\github\\qwerty-menu\\mods\\noclip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|solutionrelative:mods\\noclip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|e:\\documents\\github\\qwerty-menu\\mods\\freezeall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E1A7B60-2A46-47C6-847A-D6BDD6594116}|qwerty menu.csproj|solutionrelative:mods\\freezeall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +38,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PluginInfo.cs",
+              "DocumentMoniker": "E:\\documents\\GitHub\\qwerty-menu\\PluginInfo.cs",
+              "RelativeDocumentMoniker": "PluginInfo.cs",
+              "ToolTip": "E:\\documents\\GitHub\\qwerty-menu\\PluginInfo.cs",
+              "RelativeToolTip": "PluginInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T02:24:16.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "grabplayerinfo.cs",
+              "DocumentMoniker": "E:\\documents\\GitHub\\qwerty-menu\\Mods\\grabplayerinfo.cs",
+              "RelativeDocumentMoniker": "Mods\\grabplayerinfo.cs",
+              "ToolTip": "E:\\documents\\GitHub\\qwerty-menu\\Mods\\grabplayerinfo.cs",
+              "RelativeToolTip": "Mods\\grabplayerinfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T01:00:48.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "slowall.cs",
+              "DocumentMoniker": "E:\\documents\\GitHub\\qwerty-menu\\Mods\\slowall.cs",
+              "RelativeDocumentMoniker": "Mods\\slowall.cs",
+              "ToolTip": "E:\\documents\\GitHub\\qwerty-menu\\Mods\\slowall.cs",
+              "RelativeToolTip": "Mods\\slowall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T00:51:01.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "noclip.cs",
+              "DocumentMoniker": "E:\\documents\\GitHub\\qwerty-menu\\Mods\\noclip.cs",
+              "RelativeDocumentMoniker": "Mods\\noclip.cs",
+              "ToolTip": "E:\\documents\\GitHub\\qwerty-menu\\Mods\\noclip.cs",
+              "RelativeToolTip": "Mods\\noclip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T22:11:39.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "freezeall.cs",
+              "DocumentMoniker": "E:\\documents\\GitHub\\qwerty-menu\\Mods\\freezeall.cs",
+              "RelativeDocumentMoniker": "Mods\\freezeall.cs",
+              "ToolTip": "E:\\documents\\GitHub\\qwerty-menu\\Mods\\freezeall.cs",
+              "RelativeToolTip": "Mods\\freezeall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T22:11:09.941Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Buttons.cs",
               "DocumentMoniker": "E:\\documents\\GitHub\\qwerty-menu\\Menu\\Buttons.cs",
               "RelativeDocumentMoniker": "Menu\\Buttons.cs",
-              "ToolTip": "E:\\documents\\GitHub\\qwerty-menu\\Menu\\Buttons.cs",
-              "RelativeToolTip": "Menu\\Buttons.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "ToolTip": "E:\\documents\\GitHub\\qwerty-menu\\Menu\\Buttons.cs*",
+              "RelativeToolTip": "Menu\\Buttons.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAACTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T02:00:23.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "qwerty menu",
               "DocumentMoniker": "E:\\documents\\GitHub\\qwerty-menu\\qwerty menu.csproj",
               "RelativeDocumentMoniker": "qwerty menu.csproj",
